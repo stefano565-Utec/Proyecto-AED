@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>600</width><height>500</height></rect>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item><widget class="QLineEdit" name="inputArray"/></item>
+
+    <item>
+     <layout class="QHBoxLayout" name="labelsTop">
+      <item><widget class="QLabel" name="labelL"><property name="text"><string>L</string></property></widget></item>
+      <item><widget class="QLabel" name="labelR"><property name="text"><string>R</string></property></widget></item>
+      <item><widget class="QLabel" name="labelIndex"><property name="text"><string>Índice</string></property></widget></item>
+      <item><widget class="QLabel" name="labelValue"><property name="text"><string>Valor</string></property></widget></item>
+     </layout>
+    </item>
+
+    <item>
+     <layout class="QHBoxLayout" name="layoutInputs">
+      <item><widget class="QSpinBox" name="inputL"/></item>
+      <item><widget class="QSpinBox" name="inputR"/></item>
+      <item><widget class="QSpinBox" name="inputIndex"/></item>
+      <item><widget class="QSpinBox" name="inputValue"/></item>
+     </layout>
+    </item>
+
+    <item><widget class="QPushButton" name="buildButton"><property name="text"><string>Construir</string></property></widget></item>
+    <item><widget class="QPushButton" name="queryButton"><property name="text"><string>Consultar</string></property></widget></item>
+    <item><widget class="QPushButton" name="updateButton"><property name="text"><string>Actualizar Elemento</string></property></widget></item>
+    <item><widget class="QPushButton" name="deleteButton"><property name="text"><string>Eliminar Elemento</string></property></widget></item>
+    <item><widget class="QPushButton" name="updateRangeButton"><property name="text"><string>Actualizar Rango</string></property></widget></item>
+    <item><widget class="QLabel" name="result"><property name="text"><string>Listo</string></property></widget></item>
+    <item><widget class="QGraphicsView" name="graphicsView"/></item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
